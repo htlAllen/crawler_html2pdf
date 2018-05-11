@@ -22,7 +22,7 @@ html_template = """
     <meta charset="UTF-8">
 </head>
 <body>
-{content}
+{content}     #注意这里的content是为后面的format可是话做准备的，即 把html中的内容 替换为content
 </body>
 </html>
 
